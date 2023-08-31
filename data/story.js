@@ -124,51 +124,13 @@ var story = {
    "transAnimType": 0,
    "title": "Home Yagoras",
    "image": "home-yagoras.png",
-   "imageFixedLess": "fl/home-yagoras.png",
    "index": 2,
    "width": 1620,
    "height": 2160,
    "x": -5813,
    "y": 1468,
    "type": "regular",
-   "fixedPanels": [
-    {
-     "constrains": {
-      "top": false,
-      "bottom": false,
-      "left": false,
-      "right": false,
-      "height": false,
-      "width": false
-     },
-     "x": 0,
-     "y": 0,
-     "width": 1620,
-     "height": 201,
-     "type": "float",
-     "index": 0,
-     "isFloat": true,
-     "isVertScroll": false,
-     "links": [
-      {
-       "rect": {
-        "x": 928,
-        "y": 47.5,
-        "width": 276,
-        "height": 106
-       },
-       "index": 6,
-       "page": 5,
-       "pageType": "overlay",
-       "pageOverlayPin": 1,
-       "pageTransAnimType": 5
-      }
-     ],
-     "image": "home-yagoras-0.png",
-     "mskH": 201,
-     "shadow": "0px 12px 12px #00000040"
-    }
-   ],
+   "fixedPanels": [],
    "links": [
     {
      "rect": {
@@ -192,6 +154,19 @@ var story = {
      },
      "index": 5,
      "page": 4,
+     "pageType": "overlay",
+     "pageOverlayPin": 1,
+     "pageTransAnimType": 5
+    },
+    {
+     "rect": {
+      "x": 928,
+      "y": 47.5,
+      "width": 276,
+      "height": 106
+     },
+     "index": 6,
+     "page": 5,
      "pageType": "overlay",
      "pageOverlayPin": 1,
      "pageTransAnimType": 5
@@ -237,7 +212,7 @@ var story = {
    "title": "No balance",
    "image": "no-balance.png",
    "index": 4,
-   "width": 1015,
+   "width": 1125,
    "height": 464,
    "x": -3914,
    "y": 1984,
@@ -246,7 +221,7 @@ var story = {
    "links": [
     {
      "rect": {
-      "x": 283,
+      "x": 338,
       "y": 286,
       "width": 449,
       "height": 106
@@ -268,7 +243,7 @@ var story = {
    "title": "PMs",
    "image": "pms.png",
    "index": 5,
-   "width": 1620,
+   "width": 1125,
    "height": 1914,
    "x": -3914,
    "y": 2848,
@@ -278,17 +253,12 @@ var story = {
     {
      "rect": {
       "x": 84,
-      "y": 761,
-      "width": 1452,
+      "y": 622,
+      "width": 957,
       "height": 201
      },
      "index": 9,
-     "page": 7,
-     "pageType": "overlay",
-     "pageOverlayPin": 0,
-     "pageOverlayPinHotspot": 8,
-     "pageOverlayPinHotspotX": 164.00009155273438,
-     "pageOverlayPinHotspotY": -597.0001220703125
+     "page": 7
     }
    ],
    "overlayPinPage": 6,
@@ -339,9 +309,19 @@ var story = {
    "height": 1596,
    "x": -2015,
    "y": 1804,
-   "type": "overlay",
+   "type": "regular",
    "fixedPanels": [],
    "links": [
+    {
+     "rect": {
+      "x": 1005,
+      "y": 48,
+      "width": 72,
+      "height": 72
+     },
+     "index": 11,
+     "action": "CLOSE"
+    },
     {
      "rect": {
       "x": 48,
@@ -349,15 +329,13 @@ var story = {
       "width": 1029,
       "height": 168
      },
-     "index": 11,
+     "index": 12,
      "page": 8,
      "disableAutoScroll": true
     }
    ],
    "overlayOutsideClickIgnore": false,
-   "layout": null,
-   "overlayPin": 0,
-   "overlayPinHotspot": 8
+   "layout": null
   },
   {
    "id": "58:1839",
@@ -375,12 +353,22 @@ var story = {
    "links": [
     {
      "rect": {
+      "x": 1005,
+      "y": 48,
+      "width": 72,
+      "height": 72
+     },
+     "index": 13,
+     "action": "CLOSE"
+    },
+    {
+     "rect": {
       "x": 48,
       "y": 498,
       "width": 1029,
       "height": 120
      },
-     "index": 12,
+     "index": 14,
      "page": 10
     }
    ],
@@ -410,7 +398,7 @@ var story = {
       "width": 1620,
       "height": 643.88671875
      },
-     "index": 13,
+     "index": 15,
      "page": 11
     }
    ],
@@ -419,29 +407,38 @@ var story = {
    "layout": null
   },
   {
-   "id": "58:1945",
+   "id": "58:1875",
    "groupID": "0:1",
    "transAnimType": 0,
-   "title": "OTP",
-   "image": "otp.png",
+   "title": "Choose PM",
+   "image": "choose-pm.png",
    "index": 10,
    "width": 1125,
-   "height": 1596,
-   "x": 568,
+   "height": 1743,
+   "x": 540,
    "y": 1810,
    "type": "modal",
    "fixedPanels": [],
    "links": [
     {
      "rect": {
-      "x": 48,
-      "y": 282,
-      "width": 1029,
-      "height": 162
+      "x": 1005,
+      "y": 48,
+      "width": 72,
+      "height": 72
      },
-     "index": 14,
-     "page": 12,
-     "disableAutoScroll": true
+     "index": 16,
+     "action": "CLOSE"
+    },
+    {
+     "rect": {
+      "x": 96,
+      "y": 654,
+      "width": 394.5,
+      "height": 120
+     },
+     "index": 17,
+     "page": 12
     }
    ],
    "overlayPinPage": 6,
@@ -470,7 +467,7 @@ var story = {
       "width": 981,
       "height": 144
      },
-     "index": 15,
+     "index": 18,
      "page": 14
     }
    ],
@@ -479,27 +476,37 @@ var story = {
    "layout": null
   },
   {
-   "id": "58:1983",
+   "id": "58:2021",
    "groupID": "0:1",
    "transAnimType": 0,
-   "title": "OTP Filled",
-   "image": "otp-filled.png",
+   "title": "Confirmation",
+   "image": "confirmation.png",
    "index": 12,
    "width": 1125,
    "height": 1596,
-   "x": 1801,
-   "y": 1810,
+   "x": 1917,
+   "y": 1804,
    "type": "modal",
    "fixedPanels": [],
    "links": [
     {
      "rect": {
-      "x": 0,
-      "y": 0,
-      "width": 1125,
-      "height": 1596
+      "x": 1005,
+      "y": 48,
+      "width": 72,
+      "height": 72
      },
-     "index": 16,
+     "index": 19,
+     "action": "CLOSE"
+    },
+    {
+     "rect": {
+      "x": 48,
+      "y": 780,
+      "width": 1029,
+      "height": 144
+     },
+     "index": 20,
      "page": 13
     }
    ],
@@ -509,28 +516,38 @@ var story = {
    "showShadow": true
   },
   {
-   "id": "58:1875",
+   "id": "58:2072",
    "groupID": "0:1",
    "transAnimType": 0,
-   "title": "Choose PM",
-   "image": "choose-pm.png",
+   "title": "Success OT",
+   "image": "success-ot.png",
    "index": 13,
    "width": 1125,
-   "height": 1743,
-   "x": 3220,
-   "y": 1810,
+   "height": 1596,
+   "x": 3294,
+   "y": 1804,
    "type": "modal",
    "fixedPanels": [],
    "links": [
     {
      "rect": {
-      "x": 96,
-      "y": 654,
-      "width": 394.5,
-      "height": 120
+      "x": 1005,
+      "y": 48,
+      "width": 72,
+      "height": 72
      },
-     "index": 17,
-     "page": 15
+     "index": 21,
+     "action": "CLOSE"
+    },
+    {
+     "rect": {
+      "x": 48,
+      "y": 1404,
+      "width": 1029,
+      "height": 144
+     },
+     "index": 22,
+     "page": 0
     }
    ],
    "overlayPinPage": 6,
@@ -559,73 +576,13 @@ var story = {
       "width": 981,
       "height": 144
      },
-     "index": 18,
+     "index": 23,
      "page": 0
     }
    ],
    "overlayPinPage": 6,
    "overlayOutsideClickIgnore": true,
    "layout": null
-  },
-  {
-   "id": "58:2021",
-   "groupID": "0:1",
-   "transAnimType": 0,
-   "title": "Confirmation",
-   "image": "confirmation.png",
-   "index": 15,
-   "width": 1125,
-   "height": 1596,
-   "x": 4597,
-   "y": 1804,
-   "type": "modal",
-   "fixedPanels": [],
-   "links": [
-    {
-     "rect": {
-      "x": 48,
-      "y": 780,
-      "width": 1029,
-      "height": 144
-     },
-     "index": 19,
-     "page": 16
-    }
-   ],
-   "overlayPinPage": 6,
-   "overlayOutsideClickIgnore": false,
-   "layout": null,
-   "showShadow": true
-  },
-  {
-   "id": "58:2072",
-   "groupID": "0:1",
-   "transAnimType": 0,
-   "title": "Success OT",
-   "image": "success-ot.png",
-   "index": 16,
-   "width": 1125,
-   "height": 1596,
-   "x": 5974,
-   "y": 1804,
-   "type": "modal",
-   "fixedPanels": [],
-   "links": [
-    {
-     "rect": {
-      "x": 48,
-      "y": 1404,
-      "width": 1029,
-      "height": 144
-     },
-     "index": 20,
-     "page": 0
-    }
-   ],
-   "overlayPinPage": 6,
-   "overlayOutsideClickIgnore": false,
-   "layout": null,
-   "showShadow": true
   }
  ],
  "groups": [
@@ -655,6 +612,6 @@ var story = {
   }
  ],
  "startPageIndex": 0,
- "totalImages": 17,
+ "totalImages": 15,
  "backColor": "#FFFFFF"
 }
