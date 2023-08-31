@@ -8,9 +8,9 @@ var story = {
  "authorEmail": "V_V_E",
  "fileType": "png",
  "disableInteractions": false,
- "highlightHotspot": true,
+ "highlightHotspot": false,
  "highlightAllHotspots": true,
- "hideGallery": false,
+ "hideGallery": true,
  "zoomEnabled": true,
  "cloud": false,
  "title": "Demo",
@@ -47,7 +47,18 @@ var story = {
      "index": 0,
      "isFloat": true,
      "isVertScroll": false,
-     "links": [],
+     "links": [
+      {
+       "rect": {
+        "x": 125,
+        "y": 11.5,
+        "width": 72,
+        "height": 53
+       },
+       "index": 1,
+       "page": 1
+      }
+     ],
      "image": "home-0.png",
      "mskH": 88
     }
@@ -89,7 +100,7 @@ var story = {
       "width": 200,
       "height": 140
      },
-     "index": 1,
+     "index": 2,
      "page": 2,
      "disableAutoScroll": true
     }
@@ -119,7 +130,7 @@ var story = {
       "width": 492,
       "height": 56
      },
-     "index": 2,
+     "index": 3,
      "page": 3,
      "disableAutoScroll": true
     }
@@ -149,7 +160,7 @@ var story = {
       "width": 540,
       "height": 214.62890625
      },
-     "index": 3,
+     "index": 4,
      "page": 4,
      "disableAutoScroll": true
     }
@@ -179,7 +190,7 @@ var story = {
       "width": 327,
       "height": 48
      },
-     "index": 4,
+     "index": 5,
      "page": 5,
      "disableAutoScroll": true
     }
@@ -209,7 +220,7 @@ var story = {
       "width": 327,
       "height": 48
      },
-     "index": 5,
+     "index": 6,
      "page": 0
     }
    ],

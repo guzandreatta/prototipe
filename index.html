@@ -19,8 +19,6 @@
         <script type="text/javascript" src="js/AbstractViewer.js?100000001" charset="UTF-8"></script>
         <script type="text/javascript" src="js/CommentsViewer.js?100000001" charset="UTF-8"></script>
     
-            <script type="text/javascript" src="js/GalleryViewer.js?100000001" charset="UTF-8"></script>
-            
         <script type="text/javascript" src="js/PresenterViewer.js?100000001" charset="UTF-8"></script>
 	
         <script type="text/javascript" src="js/InfoViewer.js?100000001" charset="UTF-8"></script>
@@ -627,7 +625,7 @@
                </div>
              </div>
            </div>
-        <div ID = "nav" class="nav">
+        <div ID = "nav" class="hidden">
         <div class="navLeft">
             
             <div ID="menu" class="menu">
@@ -718,12 +716,6 @@
             </div>
             <hr>
 <div class="groupe" ID="">
-                <div ID="" class ="item" onclick="viewer.hideMenu(); viewer.galleryViewer.show(); return false; ">
-                    <svg class ='svgIcon'><use xlink: href="#icGrid"></use></svg>
-                    <span>View all screens</span>
-                    <div class ="tips">G</div>
-                </div>
-                
                 <div ID="start" class ="item" onclick="viewer.hideMenu(); viewer.goToPage(0); return false; ">
                     <svg class ='svgIcon'><use xlink: href="#icBack"></use></svg>
                     <span>Go to start</span>
